@@ -1,0 +1,33 @@
+.title {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.subtitle {
+    font-size: 10px;
+    margin-top: 20px;
+}
+.blogContent {
+    background-color: blue;
+    height: 1000px;
+    width: 100%;
+}
+.inputSpace {
+    height: 200px;
+    width: 50%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+#inputParent {
+    display: flex;
+    justify-content: center;
+}
+.postSubmit {
+    margin-top: 10px;
+    width: 30%;
+}
+.postEditor {
+    margin-top: 20px;
+    height: 200px;
+}
