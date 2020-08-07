@@ -8,7 +8,6 @@
     margin-top: 20px;
 }
 .blogContent {
-    background-color: blue;
     height: 1000px;
     width: 100%;
 }
@@ -26,6 +25,7 @@
 .postSubmit {
     margin-top: 10px;
     width: 30%;
+    color: blue;
 }
 .postEditor {
     margin-top: 20px;

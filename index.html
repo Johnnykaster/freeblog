@@ -21,7 +21,7 @@
         <div id="inputParent">
             <div class="inputSpace">
                 <textarea class="postEditor"></textarea>
-                <button class="postSubmit">
+                <button class="postSubmit" onClick="testFunction()">
             </div>
         </div>
 
@@ -37,6 +37,28 @@
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+                <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+
+            <!-- TODO: Add SDKs for Firebase products that you want to use
+                https://firebase.google.com/docs/web/setup#available-libraries -->
+            <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+
+            <script>
+            // Your web app's Firebase configuration
+            var firebaseConfig = {
+                apiKey: "AIzaSyAYI3DXr1sc5OCduBSf11sPeqB48Zn1Tx0",
+                authDomain: "freeblog2.firebaseapp.com",
+                databaseURL: "https://freeblog2.firebaseio.com",
+                projectId: "freeblog2",
+                storageBucket: "freeblog2.appspot.com",
+                messagingSenderId: "786939058847",
+                appId: "1:786939058847:web:ef18e485bb7e18cf2ae0aa",
+                measurementId: "G-QYZJCJYSRY"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            firebase.analytics();
+            </script>
             <script src="script.js" async defer> </script>
         </body>
 
